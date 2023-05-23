@@ -1,7 +1,7 @@
-package com.example.lexuanngo.controler;
+package vominhthuan.spring.controler;
 
-import com.example.lexuanngo.model.Product;
-import com.example.lexuanngo.sevice.ProductService;
+import vominhthuan.spring.model.Product;
+import vominhthuan.spring.sevice.ProductService;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.UUID;
 
 @Controller
 @RequestMapping("/products")

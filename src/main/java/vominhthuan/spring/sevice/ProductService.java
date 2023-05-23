@@ -1,6 +1,6 @@
-package com.example.lexuanngo.sevice;
+package vominhthuan.spring.sevice;
 
-import com.example.lexuanngo.model.Product;
+import vominhthuan.spring.model.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
